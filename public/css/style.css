@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: orangered;
+    padding: 20px;
+    font-size: 3rem;
+    font-family: Verdana;
+}
+
+input {
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px;
+    border: solid 2px orangered;
+    padding-left: 10px;
+    color: orangered;
+    /* font-size: 1rem; */
+    outline: none;
+}
+
+::placeholder {
+    color: orangered;
+    padding: 2px;
+}
+
+.btn-submit {
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    font-size: 1rem;
+}
+
+.todo-container {
+    width: 705px;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid orangered;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: orangered;
+    background-color: white;
+}
+
+.todo-value {
+    flex: 3;
+    margin: auto;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.btn-delete {
+    width: 95px;
+    height: 2rem;
+    border: none;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
