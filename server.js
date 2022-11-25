@@ -5,7 +5,7 @@ const port = process.env.PORT
 const mongoose = require('mongoose')
 
 // models
-const Todo = require('./models/Todo.js')
+const Todo = require('./models/Todo')
 
 // view engine configuration
 app.set('view engine', 'ejs')
