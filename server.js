@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
 // connection to db
-mongoose.connect(process.env.DB_CONNECT)
+mongoose.connect(process.env.DB_CONN)
     .then(() => {
         console.log("Connected to db!");
 
